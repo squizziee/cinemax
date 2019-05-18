@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script src="jquery.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>OnCX</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sidebar" id="sidebar">
+			<form>
+				<table>
+					<tr>
+						<th><input type="text" name="search-string" class="search-string"></th>
+						<th><input type="submit" name="search-btn" class="search-btn" value="Search"></th>
+					</tr>
+				</table>
+			</form>
+			<ul>
+				<a href="index.html"><li>home</li></a>
+				<a href="rec.index.html"><li>recommendations</li></a>
+				<a href="categ.index.html"><li>categories</li></a>
+				<a href="login.index.html"><li>personal area</li></a>
+				<a href="feedb.index.html"><li>feedback</li></a>
+			</ul>
+		</div>
+		<div class="top-head">
+			<embed src="play.svg"></embed>
+		</div>
+		<div class="sidebar-call-btn" onclick="toggle_sidebar()" id="sidebar-call-btn">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+		<div class="content-container">
+			<div class="film-info-header">
+				<h2>Avengers: Infinity War</h2>
+			</div>
+			<div class="film-info">
+				<h3>short summary</h3>
+				<article>
+					The mad titan Thanos (Josh Brolin) begins his hunt for the most powerful objects in the universe, the Infinity Stones, in this movie. With the Space Stone, given by Loki (Tom Hiddleston), and the Power Stone, Thanos sends (Ebony Maw, Cull Obsidian to retrieve the Time Stone from Doctor Strange (Benedict Cumberbatch), sends Proxima Midnight, and Corvus Glaive) to retrieve the Mind Stone from Vision (Paul Bettany). Meanwhile, Tony Stark (Robert Downey, Jr.) meets up with Bruce Banner (Mark Ruffalo) and sorcerers Doctor Strange (Benedict Cumberbatch) and Wong (Benedict Wong). With help from Peter Parker/Spider-Man (Tom Holland), Stark and Strange join forces together and agree to stop Thanos. In space, Thor (Chris Hemsworth) also joins forces with the Guardians of the Galaxy, Star-Lord (Chris Pratt), Drax (Dave Bautista), Rocket (Bradley Cooper), Groot (Vin Diesel), Mantis (Pom Klementieff), and Gamora (Zoe Saldana), the daughter of Thanos who warns Thor of his power. Thor travels away to defeat Thanos with Rocket and Groot, while the other Guardians join forces with Stark, Strange, and Parker. In Wakanda, Steve Rogers (Chris Evans) and his team, Black Widow (Scarlett Johansson), Falcon (Anthony Mackie), Scarlet Witch (Elizabeth Olsen), War Machine (Don Cheadle), and Bruce Banner to protect Vision and the Mind Stone in his forehead. With protection given from King T'Challa/Black Panther (Chadwick Boseman), and his Wakandan army, Thanos will come for everyone to destroy half the universe.
+				</article>
+				<h3>trailer</h3>
+				<iframe src="https://www.youtube.com/embed/6ZfuNTqbHE8" class="fst">
+
+				</iframe>
+				<h3>film</h3>
+				<iframe src="https://www.youtube.com/embed/6ZfuNTqbHE8" class="sec">
+
+				</iframe>
+			</div>
+			<div class="film-info-footer">
+				<h3>reviews</h3>
+				<div class="reviews-container">
+					<div class="review">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="author-name">
+							<span><i class="fa fa-user"></i>Alexander Nevsky</span>
+						</div>
+						<div class="review-content">
+							<article>
+								Elementum nulla vel per nisi viverra. Eu porta pulvinar, enim fames phasellus duis quisque felis. Sagittis eu tempus blandit. Cubilia Suscipit orci dictumst hymenaeos suscipit leo taciti curabitur dictum magna tellus dapibus arcu adipiscing.
+
+								Hymenaeos scelerisque id. Dictumst ut. Est pede, inceptos imperdiet lectus natoque porta lacus morbi consectetuer blandit iaculis aenean in duis A lacus inceptos primis cursus urna curabitur arcu a etiam. Neque. Hymenaeos, est molestie Euismod pretium nulla est ipsum.
+
+								Facilisi. Vivamus at. Ac habitasse purus eleifend natoque metus cubilia proin dignissim ut platea velit Iaculis magnis. Etiam fusce sollicitudin erat augue magnis pellentesque molestie suspendisse ornare.
+							</article>
+						</div>
+						<div class="feedback-from-other">
+							<i class="fa fa-thumbs-up" id="like" onclick="like()"></i>
+							<i class="fa fa-thumbs-down" id="dislike" onclick="dislike()"></i>
+						</div>
+					</div>
+					<div class="review">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="author-name">
+							<span><i class="fa fa-user"></i>Unstopable Guy</span>
+						</div>
+						<div class="review-content">
+							<article>
+								Elementum nulla vel per nisi viverra. Eu porta pulvinar, enim fames phasellus duis quisque felis. Sagittis eu tempus blandit. Cubilia Suscipit orci dictumst hymenaeos suscipit leo taciti curabitur dictum magna tellus dapibus arcu adipiscing.
+
+								Hymenaeos scelerisque id. Dictumst ut. Est pede, inceptos imperdiet lectus natoque porta lacus morbi consectetuer blandit iaculis aenean in duis A lacus inceptos primis cursus urna curabitur arcu a etiam. Neque. Hymenaeos, est molestie Euismod pretium nulla est ipsum.
+
+								Facilisi. Vivamus at. Ac habitasse purus eleifend natoque metus cubilia proin dignissim ut platea velit Iaculis magnis. Etiam fusce sollicitudin erat augue magnis pellentesque molestie suspendisse ornare.
+							</article>
+						</div>
+						<div class="feedback-from-other">
+							<i class="fa fa-thumbs-up" id="like2" onclick="like2()"></i>
+							<i class="fa fa-thumbs-down" id="dislike2" onclick="dislike2()"></i>
+						</div>
+					</div>
+					<div class="review">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="author-name">
+							<span><i class="fa fa-user"></i>Just Nobody</span>
+						</div>
+						<div class="review-content">
+							<article>
+								Elementum nulla vel per nisi viverra. Eu porta pulvinar, enim fames phasellus duis quisque felis. Sagittis eu tempus blandit. Cubilia Suscipit orci dictumst hymenaeos suscipit leo taciti curabitur dictum magna tellus dapibus arcu adipiscing.
+
+								Hymenaeos scelerisque id. Dictumst ut. Est pede, inceptos imperdiet lectus natoque porta lacus morbi consectetuer blandit iaculis aenean in duis A lacus inceptos primis cursus urna curabitur arcu a etiam. Neque. Hymenaeos, est molestie Euismod pretium nulla est ipsum.
+
+								Facilisi. Vivamus at. Ac habitasse purus eleifend natoque metus cubilia proin dignissim ut platea velit Iaculis magnis. Etiam fusce sollicitudin erat augue magnis pellentesque molestie suspendisse ornare.
+							</article>
+						</div>
+						<div class="feedback-from-other">
+							<i class="fa fa-thumbs-up" id="like3" onclick="like3()"></i>
+							<i class="fa fa-thumbs-down" id="dislike3" onclick="dislike3()"></i>
+						</div>
+					</div>
+					<div class="review">
+						<div class="rating">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+						</div>
+						<div class="author-name">
+							<span><i class="fa fa-user"></i>Anonymous User</span>
+						</div>
+						<div class="review-content">
+							<article>
+								Elementum nulla vel per nisi viverra. Eu porta pulvinar, enim fames phasellus duis quisque felis. Sagittis eu tempus blandit. Cubilia Suscipit orci dictumst hymenaeos suscipit leo taciti curabitur dictum magna tellus dapibus arcu adipiscing.
+
+								Hymenaeos scelerisque id. Dictumst ut. Est pede, inceptos imperdiet lectus natoque porta lacus morbi consectetuer blandit iaculis aenean in duis A lacus inceptos primis cursus urna curabitur arcu a etiam. Neque. Hymenaeos, est molestie Euismod pretium nulla est ipsum.
+
+								Facilisi. Vivamus at. Ac habitasse purus eleifend natoque metus cubilia proin dignissim ut platea velit Iaculis magnis. Etiam fusce sollicitudin erat augue magnis pellentesque molestie suspendisse ornare.
+							</article>
+						</div>
+						<div class="feedback-from-other">
+							<i class="fa fa-thumbs-up" id="like4" onclick="like4()"></i>
+							<i class="fa fa-thumbs-down" id="dislike4" onclick="dislike4()"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="film-info-footer-down">
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>...</span>
+				<span>21</span>
+			</div>
+		</div>
+		<div class="footer-block" id="footer-block">
+			<ul>
+				<li>Facebook</li>
+				<li>Instagram</li>
+				<li>Reddit</li>
+				<li>LinkedIn</li>
+				<li>Email</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
